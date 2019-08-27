@@ -1,8 +1,8 @@
 import words from '../fixtures/words';
 
-const dictionary = words;
+const initialState = [...words];
 
-export default function reducer(state = dictionary, action){
+export default function reducer(state = initialState, action){
   switch(action.type) {
 
     default:

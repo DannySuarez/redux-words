@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import TopWords from '../containers/TopWords';
-import Searchable from '../containers/Searchable';
+import Searchable from './words/Searchable';
 
 export default function App() {
   return (

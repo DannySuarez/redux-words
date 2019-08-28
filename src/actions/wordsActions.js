@@ -1,5 +1,6 @@
-export const UPDATE_SEARCH = 'UPDATE_SEARCH';
-export const updateSearch = (filter) => ({
-  type: UPDATE_SEARCH,
+export const UPDATE_SEARCH_TERM = 'UPDATE_SEARCH_TERM';
+export const updateSearchTerm = (filter) => ({
+  type: UPDATE_SEARCH_TERM,
   payload: filter
 });
+

@@ -1,5 +1,5 @@
 import words from '../fixtures/words';
-import { UPDATE_SEARCH } from '../actions/wordsActions';
+import { UPDATE_SEARCH_TERM } from '../actions/wordsActions';
 
 const initialState = {
   words,
@@ -8,7 +8,7 @@ const initialState = {
 
 export default function reducer(state = initialState, action){
   switch(action.type) {
-    case UPDATE_SEARCH:
+    case UPDATE_SEARCH_TERM:
       return { ...state, filter: action.payload };
 
     default:
